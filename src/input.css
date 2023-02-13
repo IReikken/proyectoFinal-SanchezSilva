@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    @apply bg-blue-300 flex h-auto ;
+}
+
+.header img{
+    @apply h-10 w-auto mr-8 my-4;
+}
+
+.title{
+    @apply m-auto font-bold text-4xl text-purple-700 pl-[76px];
+}
+
+
+
+/* boton carrito */
+
+#cart{
+    @apply flex m-4 bg-purple-400 border-2 border-purple-700 hover:bg-orange-400 rounded-md px-2;
+}
+
+
+#cart img{
+    @apply mx-0;
+}
+
+#cart div{
+    @apply my-auto ml-2;
+}
+
+
+
+#shop{
+    @apply w-[50vw] flex flex-wrap  m-auto justify-center;
+}
+
+/* tarjeta de item */
+
+.item-card{
+    @apply flex flex-col bg-blue-100 w-[200px] m-4 drop-shadow-lg;
+}
+
+.item-card img{
+    @apply w-[200px] h-auto p-1;
+}
+
+.item-card h3{
+    @apply mx-4 font-bold mt-2;
+}
+
+.item-card article{
+    @apply mx-4 mt-2;
+}
+
+.price{
+    @apply flex mx-auto;
+}
+
+.price div{
+    @apply max-w-[90px] my-auto mr-8;
+}
+
+.price button{
+    @apply  w-[80px] h-auto bg-blue-600 text-white p-2 rounded-[15px] mx-auto my-4;
+}
+
+
+/* Contenido de carrito  */
+
+#cart-content{
+    @apply h-auto w-[24%] bg-purple-400 absolute top-[124px] right-0 flex flex-col p-1;
+}
+
+
+#cart-content > div{
+    @apply flex
+}
+
+#cart-content > div h3{
+    @apply font-bold align-middle p-2;
+}
+
+#cart-content > div > img{
+    @apply h-[30px] w-[30px] ml-auto my-1 mr-0;
+}
+
+.cart-items{
+    @apply flex;
+}
+
+.cart-items p{
+    @apply my-1 mr-1.5 ml-auto max-w-[45%];
+}
+
+.cart-items img{
+    @apply h-[30px] w-[30px];
+}
+
+#cart-total{
+    @apply order-last;
+}
