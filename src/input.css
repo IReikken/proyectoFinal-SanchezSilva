@@ -102,3 +102,7 @@
 #cart-total{
     @apply order-last;
 }
+
+#cart-buy{
+    @apply order-last bg-blue-400 w-[100px] mr-[20px] ml-auto rounded-md border-blue-600 border-2 hover:bg-blue-500;
+}

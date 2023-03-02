@@ -1,3 +1,5 @@
+
+// Renderización de items para la tienda
 const mostrarItems = (items) => {
     const container = document.getElementById("shop");
         items.forEach(item => {
@@ -27,6 +29,7 @@ const mostrarItems = (items) => {
             });
         };
 
+// Renderización de contenido del carrito        
 
 let mostrarCarrito =(cartItems) => {
     const container2 = document.getElementById("cart-content");
@@ -43,3 +46,6 @@ let mostrarCarrito =(cartItems) => {
         });
         
 };
+
+
+

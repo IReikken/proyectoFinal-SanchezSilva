@@ -5,10 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Prueba</title>
+        <!-- sweetAlert2 -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- hoja de estilos -->
         <link rel="stylesheet" href="./styles/output.css">
     </head>
     <body>
-
+        <!-- Header de página -->
         <div class="header">
             <h1 class="title">Tienda de Rubik</h1>
             <button id="cart">
@@ -18,11 +23,13 @@
                 </div>
             </button>
         </div>
-    
+        
+        <!-- Contenedor de items de página -->
         <main id="shop"> 
     
         </main>
 
+        <!-- Lista de carrito de compras -->
         <div id="cart-content">
             <div>
                 <h3> Carrito de Compras</h3>
@@ -31,10 +38,14 @@
             <div id="cart-total">
                 <h3> Monto total: $0 </h3>
             </div>
+            <button id="cart-buy"> Proceder a compra</button>
         </div>
     
 </body>
+
+<!-- Archivos de JS -->
 <script src="./data/stock.js">    </script>
+<script src="./script/fetch.js">    </script>
 <script src="./script/items.js">    </script>
 <script src="./script/index.js">    </script>
 <script src="./script/main.js">    </script>
